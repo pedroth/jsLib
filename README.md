@@ -1,2 +1,3 @@
 # jsLib
-Js Library Template with webpack 
+
+Js library template with webpack and jest
