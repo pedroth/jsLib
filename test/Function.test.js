@@ -1,4 +1,5 @@
-import Function from "../Function";
+/* eslint-disable no-undef */
+import { Function } from "../dist/node/index.js";
 
 test("compose test", () => {
   const ide1 = Function.of(x => x * x).compose(Math.sqrt);
