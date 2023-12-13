@@ -6,7 +6,7 @@
   "scripts": {
     "test": "bun test",
     "build": "bun run clean; bun bundle.js",
-    "buildDev": "echo doesn't work",
+    "buildDev": "bun bundle.js --watch",
     "clean": "rm -rf node_modules; rm -rf dist;",
     "serve": "bunx http-server"
   },
