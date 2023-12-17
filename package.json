@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Template for js libraries with webpack",
   "main": "./dist/node/index.js",
+  "type": "module",
   "scripts": {
     "test": "bun test",
     "build": "bun run clean; bun bundle.js",
